@@ -1,12 +1,15 @@
+////////////// 
+// Get
 
 > git clone https://github.com/dougmarts/testbed.git
-
 > git status
 
-> git add .
+//////////////
+// Set
 
-
-
+> git add command_line.txt 
+> git commit -m "added command line"
+> git push
 
 /////////////////////////////////////////////////////////
 
