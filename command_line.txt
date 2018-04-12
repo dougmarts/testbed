@@ -1,0 +1,28 @@
+
+> git clone https://github.com/dougmarts/testbed.git
+
+> git status
+
+> git add .
+
+
+
+
+/////////////////////////////////////////////////////////
+
+vim/vi - http://vimdoc.sourceforge.net/htmldoc/help.html
+
+  <esc>, position cursor,
+	insert: 		i
+	delete:			x
+	delete line:		dd
+	delete line break:	j
+
+	undo: 			u
+	redo:			CTRL-R
+
+To exit, use the "ZZ" command. 
+
+DISCARDING CHANGES		:q!
+
+:help
