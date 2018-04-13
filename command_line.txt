@@ -1,35 +1,41 @@
 ////////////// 
 // Get
 
+// first time - clone repository into new directory
 > git clone https://github.com/dougmarts/testbed.git
-> git status
-
-> git pull	// get updates...
+> git pull	// get updates - pull latest from remote repository
 
 //////////////
 // Set
 
-> git add command_line.txt 
-> git commit -m "added command line"
-> git push
+> git add command_line.txt 	// get add <file>
+> git commit -m "added command line" // commit changes to index
+> git push	//  push to remote reposity (can add ssh keys)
 
+/////////////
+// Other
 
+> git status	// get status of working tree
+> git add .	// add all or '> git add -A'
+> git init	// initialize and get an respository (creates a .git hidden folder)
+> git --version
+git version 2.16.2.windows.1	// 2018-04-12
 
 /////////////////////////////////////////////////////////
 
 vim/vi - http://vimdoc.sourceforge.net/htmldoc/help.html
 
   <esc>, position cursor,
-	insert: 		i
-	delete:			x
-	delete line:		dd
-	delete line break:	j
+    insert: 		i
+    delete:		x
+    delete line:	dd
+    delete line break:	j
 
-	undo: 			u
-	redo:			CTRL-R
+    undo: 		u
+    redo:		CTRL-R
 
-To exit, use the "ZZ" command. 
+    save & exit:	ZZ
+    don't save & exit	:q!
+    write/save & exit	:wq
 
-DISCARDING CHANGES		:q!
-
-:help
+  :help
