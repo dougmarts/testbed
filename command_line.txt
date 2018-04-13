@@ -1,0 +1,35 @@
+////////////// 
+// Get
+
+> git clone https://github.com/dougmarts/testbed.git
+> git status
+
+> git pull	// get updates...
+
+//////////////
+// Set
+
+> git add command_line.txt 
+> git commit -m "added command line"
+> git push
+
+
+
+/////////////////////////////////////////////////////////
+
+vim/vi - http://vimdoc.sourceforge.net/htmldoc/help.html
+
+  <esc>, position cursor,
+	insert: 		i
+	delete:			x
+	delete line:		dd
+	delete line break:	j
+
+	undo: 			u
+	redo:			CTRL-R
+
+To exit, use the "ZZ" command. 
+
+DISCARDING CHANGES		:q!
+
+:help
